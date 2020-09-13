@@ -1,0 +1,29 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    color: #020100;
+}
+
+html, body {
+    background-color: #070700;
+    margin: 10px;
+}
+
+.container > div:nth-child(1n) {
+    background-color: #03ee80;	
+}
+
+.container > div:nth-child(2n) {
+    background-color: #fc1bb1;
+}
+
+.container > div:nth-child(3n) {
+    background-color: #02f3f3;
+}
+
+.container > div:nth-child(4n) {
+    background-color: #e0f808;
+}
